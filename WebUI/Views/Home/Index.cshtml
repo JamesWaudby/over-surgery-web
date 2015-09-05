@@ -1,0 +1,22 @@
+﻿@using WebUI.Models
+@model AppointmentViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.DisplayFor(model => model.Message)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Appointment.ID, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Appointment.ID)
+    </div>
+    <div class="form-group">
+        @Html.EditorFor(model => model.Appointment.Patient)
+    </div>
+    <input type="submit" class="btn btn-primary" />
+}
