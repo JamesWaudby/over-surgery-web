@@ -51,8 +51,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Concrete\AppointmentRepositoryTests.cs" />
+    <Compile Include="Concrete\EmployeeRepositoryTests.cs" />
+    <Compile Include="Concrete\LogonRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AppointmentServiceTests.cs" />
+    <Compile Include="Services\LogonServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">

@@ -41,7 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IAppointmentRepository.cs" />
+    <Compile Include="Abstract\IEmployeeRepository.cs" />
+    <Compile Include="Abstract\ILogonRepository.cs" />
     <Compile Include="Concrete\AppointmentRepository.cs" />
+    <Compile Include="Concrete\EmployeeRepository.cs" />
+    <Compile Include="Concrete\LogonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

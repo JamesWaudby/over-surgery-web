@@ -41,13 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IAppointmentService.cs" />
+    <Compile Include="Abstract\ILogonService.cs" />
     <Compile Include="Messages\Requests\AppointmentRequest.cs" />
     <Compile Include="Messages\Requests\CreateAppointmentRequest.cs" />
+    <Compile Include="Messages\Requests\LogonRequest.cs" />
     <Compile Include="Messages\Requests\RequestBase.cs" />
     <Compile Include="Messages\Responses\AppointmentResponse.cs" />
+    <Compile Include="Messages\Responses\LogonResponse.cs" />
     <Compile Include="Messages\Responses\ResponseBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AppointmentService.cs" />
+    <Compile Include="Services\LogonService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">

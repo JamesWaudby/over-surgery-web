@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class MedicalStaff : Employee
+    public class Employee : Person
     {
-        public IList<Appointment> Appointments { get; set; }
+        public int ID { get; set; }
     }
 }
